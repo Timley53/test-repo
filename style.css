@@ -1,3 +1,84 @@
 body {
-    background-color: red;
+    background-color: rgb(13, 7, 37);
 }
+
+.contain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-1{
+    width: 220px;
+    height: 500px;
+    background-color: rgba(49, 5, 90, 0.753);
+    padding: 20px;
+    margin-top: 5%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first-1 h2{
+    
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+.first-1 h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgba(121, 48, 189, 0.644);
+    font-weight: lighter;
+    font-size: medium;
+
+    
+}
+
+.first-1 h3>span{
+    font-size: small;
+}
+
+.contain .price{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.price p:nth-child(1){
+    color: rgba(0, 255, 255, 0.76);
+}
+
+.price p:nth-child(2){
+        color: rgba(121, 48, 189, 0.644);
+}
+
+.line{
+    margin-top: 10px;
+    background-color: aqua;
+    height: 1px;
+}
+
+
+    .first-1 img{
+    animation-name: rotate;
+    animation-direction: normal;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    /* transform: rotateY(4turn); */
+    }
+
+
+    @keyframes rotate{
+        50%{
+            transform: rotateY(1turn);
+        }
+
+    }
+
+    
