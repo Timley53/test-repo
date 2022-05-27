@@ -1,7 +1,10 @@
 body {
     background-color: rgb(13, 7, 37);
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
+=======
+>>>>>>> 89a7f1b (brown background)
     background-color: brown;
 }
 
@@ -147,7 +150,13 @@ body {
             animation-duration: 5s;
             animation-iteration-count: infinite;
             animation-fill-mode: forwards;
+
+
            
+
+            /* transform: rotateY(4turn); */
+
+
         }
     
     
@@ -156,4 +165,6 @@ body {
                 transform: rotateY(1turn);
             }
     
+
+
         }
